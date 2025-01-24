@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Color Inverter",
+  "version": "1.0",
+  "description": "A Chrome extension to invert colors on web pages.",
+  "permissions": ["scripting","activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
